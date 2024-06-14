@@ -616,7 +616,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1723735465}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: LevelLoader, Assembly-CSharp
         m_MethodName: LoadNewScene
         m_Mode: 5
@@ -817,7 +817,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LevelLoader
       value: 
-      objectReference: {fileID: 1723735465}
+      objectReference: {fileID: 0}
     - target: {fileID: 6411424757685492517, guid: c2c222ba46812f84ba873331439fe657,
         type: 3}
       propertyPath: m_SizeDelta.x
@@ -1293,7 +1293,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LevelLoader
       value: 
-      objectReference: {fileID: 1723735465}
+      objectReference: {fileID: 0}
     - target: {fileID: 6411424757685492517, guid: c2c222ba46812f84ba873331439fe657,
         type: 3}
       propertyPath: m_SizeDelta.x
@@ -1634,7 +1634,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LevelLoader
       value: 
-      objectReference: {fileID: 1723735465}
+      objectReference: {fileID: 0}
     - target: {fileID: 6411424757685492517, guid: c2c222ba46812f84ba873331439fe657,
         type: 3}
       propertyPath: m_SizeDelta.x
@@ -2103,7 +2103,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LevelLoader
       value: 
-      objectReference: {fileID: 1723735465}
+      objectReference: {fileID: 0}
     - target: {fileID: 6411424757685492517, guid: c2c222ba46812f84ba873331439fe657,
         type: 3}
       propertyPath: m_SizeDelta.x
@@ -2587,7 +2587,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2248c511168a972498fe6ff4464408f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LevelLoader: {fileID: 1723735465}
+  LevelLoader: {fileID: 0}
   id: 8
 --- !u!1 &729397468
 GameObject:
@@ -3423,7 +3423,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2248c511168a972498fe6ff4464408f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LevelLoader: {fileID: 1723735465}
+  LevelLoader: {fileID: 0}
   id: 1
 --- !u!1001 &890628885
 PrefabInstance:
@@ -3576,7 +3576,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LevelLoader
       value: 
-      objectReference: {fileID: 1723735465}
+      objectReference: {fileID: 0}
     - target: {fileID: 6411424757685492517, guid: c2c222ba46812f84ba873331439fe657,
         type: 3}
       propertyPath: m_SizeDelta.x
@@ -3643,7 +3643,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2248c511168a972498fe6ff4464408f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LevelLoader: {fileID: 1723735465}
+  LevelLoader: {fileID: 0}
   id: 2
 --- !u!1 &902582500
 GameObject:
@@ -4144,7 +4144,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2248c511168a972498fe6ff4464408f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LevelLoader: {fileID: 1723735465}
+  LevelLoader: {fileID: 0}
   id: 9
 --- !u!1 &1215369107 stripped
 GameObject:
@@ -4164,7 +4164,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2248c511168a972498fe6ff4464408f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LevelLoader: {fileID: 1723735465}
+  LevelLoader: {fileID: 0}
   id: 0
 --- !u!1 &1222680401
 GameObject:
@@ -4948,21 +4948,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3041061302705702435, guid: b67cd987ee8d67741ad86bbbe679eeca, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 5954357341867788819, guid: b67cd987ee8d67741ad86bbbe679eeca,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1723735466}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b67cd987ee8d67741ad86bbbe679eeca, type: 3}
---- !u!1 &1351102450 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5954357341867788819, guid: b67cd987ee8d67741ad86bbbe679eeca,
-    type: 3}
-  m_PrefabInstance: {fileID: 1351102449}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1365254779
 GameObject:
   m_ObjectHideFlags: 0
@@ -5300,7 +5291,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2248c511168a972498fe6ff4464408f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LevelLoader: {fileID: 1723735465}
+  LevelLoader: {fileID: 0}
   id: 5
 --- !u!1 &1619645868
 GameObject:
@@ -5455,7 +5446,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2248c511168a972498fe6ff4464408f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LevelLoader: {fileID: 1723735465}
+  LevelLoader: {fileID: 0}
   id: 6
 --- !u!1 &1713185875
 GameObject:
@@ -5827,30 +5818,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1722256735}
   m_CullTransparentMesh: 1
---- !u!114 &1723735465 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3041061302705702435, guid: b67cd987ee8d67741ad86bbbe679eeca,
-    type: 3}
-  m_PrefabInstance: {fileID: 1351102449}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1351102450}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec78393e4f18a7e458b088dfd1530ead, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1723735466
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1351102450}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0dabf90118a0bf24f8a1d2368ae370b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1757397617
 GameObject:
   m_ObjectHideFlags: 0
@@ -6068,7 +6035,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1723735465}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: LevelLoader, Assembly-CSharp
         m_MethodName: LoadNewScene
         m_Mode: 5
@@ -6269,7 +6236,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LevelLoader
       value: 
-      objectReference: {fileID: 1723735465}
+      objectReference: {fileID: 0}
     - target: {fileID: 6411424757685492517, guid: c2c222ba46812f84ba873331439fe657,
         type: 3}
       propertyPath: m_SizeDelta.x
@@ -6612,7 +6579,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2248c511168a972498fe6ff4464408f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LevelLoader: {fileID: 1723735465}
+  LevelLoader: {fileID: 0}
   id: 3
 --- !u!1 &1942844232 stripped
 GameObject:
@@ -6632,7 +6599,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2248c511168a972498fe6ff4464408f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LevelLoader: {fileID: 1723735465}
+  LevelLoader: {fileID: 0}
   id: 7
 --- !u!1001 &2019727079
 PrefabInstance:
@@ -6785,7 +6752,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LevelLoader
       value: 
-      objectReference: {fileID: 1723735465}
+      objectReference: {fileID: 0}
     - target: {fileID: 6411424757685492517, guid: c2c222ba46812f84ba873331439fe657,
         type: 3}
       propertyPath: m_SizeDelta.x
@@ -7120,7 +7087,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LevelLoader
       value: 
-      objectReference: {fileID: 1723735465}
+      objectReference: {fileID: 0}
     - target: {fileID: 6411424757685492517, guid: c2c222ba46812f84ba873331439fe657,
         type: 3}
       propertyPath: m_SizeDelta.x
@@ -7320,7 +7287,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LevelLoader
       value: 
-      objectReference: {fileID: 1723735465}
+      objectReference: {fileID: 0}
     - target: {fileID: 6411424757685492517, guid: c2c222ba46812f84ba873331439fe657,
         type: 3}
       propertyPath: m_SizeDelta.x
@@ -7387,7 +7354,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2248c511168a972498fe6ff4464408f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LevelLoader: {fileID: 1723735465}
+  LevelLoader: {fileID: 0}
   id: 4
 --- !u!1001 &4952366439378827031
 PrefabInstance:
@@ -7535,7 +7502,7 @@ PrefabInstance:
         type: 3}
       propertyPath: LevelLoader
       value: 
-      objectReference: {fileID: 1723735465}
+      objectReference: {fileID: 0}
     - target: {fileID: 6411424757685492517, guid: c2c222ba46812f84ba873331439fe657,
         type: 3}
       propertyPath: m_SizeDelta.x

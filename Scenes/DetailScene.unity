@@ -8446,7 +8446,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2089071788}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: LevelLoader, Assembly-CSharp
         m_MethodName: GoBack
         m_Mode: 1
@@ -8917,7 +8917,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2089071788}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: LevelLoader, Assembly-CSharp
         m_MethodName: LoadNewScene
         m_Mode: 5
@@ -18703,45 +18703,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3041061302705702435, guid: b67cd987ee8d67741ad86bbbe679eeca, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 5954357341867788819, guid: b67cd987ee8d67741ad86bbbe679eeca,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2089071790}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b67cd987ee8d67741ad86bbbe679eeca, type: 3}
---- !u!114 &2089071788 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3041061302705702435, guid: b67cd987ee8d67741ad86bbbe679eeca,
-    type: 3}
-  m_PrefabInstance: {fileID: 2089071787}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2089071789}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec78393e4f18a7e458b088dfd1530ead, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!1 &2089071789 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5954357341867788819, guid: b67cd987ee8d67741ad86bbbe679eeca,
-    type: 3}
-  m_PrefabInstance: {fileID: 2089071787}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2089071790
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2089071789}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0dabf90118a0bf24f8a1d2368ae370b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2102152809
 GameObject:
   m_ObjectHideFlags: 0
