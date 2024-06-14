@@ -19,6 +19,7 @@ public class MenuItem : MonoBehaviour
 
     public void ActivateItem()
     {
+        DetailStore.ActiveDetailText = Text;
         textMeshPro.color = Color.white;
         detailObj.SetActive(true);
     }

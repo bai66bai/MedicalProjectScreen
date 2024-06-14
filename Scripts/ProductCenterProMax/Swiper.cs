@@ -80,7 +80,7 @@ namespace Assets.Scripts.ProductCenterProMax
         /// 向指定方向滑动一次
         /// </summary>
         /// <param name="direction">滑动方向</param>
-        private void SwipeOnce(SwipeDirection direction)
+        public void SwipeOnce(SwipeDirection direction)
         {
             DCL_Node<SwiperItem> RemovedItem;
             if (direction == SwipeDirection.Left)

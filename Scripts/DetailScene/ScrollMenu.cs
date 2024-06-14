@@ -98,7 +98,7 @@ public class ScrollMenu : MonoBehaviour, IEndDragHandler, IBeginDragHandler
     /// 滚动到指定索引
     /// </summary>
     /// <param name="index">item索引</param>
-    private void ScrollToIndex(int index) => StartCoroutine(ScrollToPositionIEnumerator(itemCenterPosList[index]));
+    public void ScrollToIndex(int index) => StartCoroutine(ScrollToPositionIEnumerator(itemCenterPosList[index]));
 
 
     /// <summary>

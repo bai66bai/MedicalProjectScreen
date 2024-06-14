@@ -80,7 +80,6 @@ public class TouchSwiper : MonoBehaviour, IEndDragHandler
         scrollRect.normalizedPosition = new Vector2(targetHorizontalPosition, scrollRect.normalizedPosition.y);
         CtrBtn.GetComponent<Turnthepage>().ChangeBtnColor(scrollRect.normalizedPosition.x);
         isChange = false;
-        //Debug.Log(scrollRect.normalizedPosition.x);
     }
 
 

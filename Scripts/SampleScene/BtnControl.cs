@@ -47,7 +47,6 @@ public class BtnControl : MonoBehaviour
         {
             buttons.ForEach(p =>
                     {
-
                         if (p.name == go.name)
                         {
                             endScale = go.name == "SkeletonBtn" ? 7.5f : 3f;
