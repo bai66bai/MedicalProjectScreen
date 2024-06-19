@@ -16,7 +16,7 @@ public class NumberCountUp : MonoBehaviour
         if (currentNumber < targetNumber)
         {
             timer += Time.deltaTime;
-            currentNumber = Mathf.SmoothStep(0, targetNumber, timer / duration);
+            currentNumber = Mathf.Lerp(0, targetNumber, timer / duration);
             numberText.text = Mathf.RoundToInt(currentNumber).ToString(); // 显示整数部分
         }
     }

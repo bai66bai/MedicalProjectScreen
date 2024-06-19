@@ -15,6 +15,7 @@ namespace Assets.Scripts.SampleScene
 
         public override void HandleMsg(string msg)
         {
+            Debug.Log(msg);
             msg = msg.Split(":")[1];
             GameObject targetBtn = msg.Trim() switch
             {

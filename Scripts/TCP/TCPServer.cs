@@ -60,11 +60,11 @@ public class TCPServer : MonoBehaviour
         tcpMsgHandler.OnMsg(request);
 
         // 发送响应
-        string response = "Success";
+/*        string response = "Success";
         byte[] responseData = Encoding.UTF8.GetBytes(response);
         var writeTask = stream.WriteAsync(responseData, 0, responseData.Length); // 异步发送数据
         while (!writeTask.IsCompleted) // 等待发送完成
-            yield return null;
+            yield return null;*/
 
         stream.Close();
         tcpClient.Close();
