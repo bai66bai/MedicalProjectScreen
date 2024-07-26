@@ -145,4 +145,25 @@ public class TouchSwiper : MonoBehaviour, IEndDragHandler
         targetHorizontalPosition = FindNearestPositionByDirection(-swipeStep);
         StartCoroutine(SmoothMove());
     }
+
+    public void ChangeDisAble()
+    {
+        smoothTime = 0.2f;
+        itemSize = 6;
+        threshold = 0.07f;
+        offset = 0;
+        itemNum = 0;
+        currentItem = 0;
+        targetHorizontalPosition = 0f;
+        velocity = 0f;
+        isRight = false;
+        isChange = false;
+        Index = 0;
+    }
+
+    private void OnDisable()
+    {
+        scrollRect.normalizedPosition = new Vector2(0, 0);
+        ChangeDisAble();
+    }
 }

@@ -1,15 +1,15 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class BreakIdle : MonoBehaviour
 {
 
+    public static bool ShouldIdle = false;
+
     // Update is called once per frame
     void Update()
     {
-        if(Input.touchCount > 0)
+        if(ShouldIdle)
         {
             // 隐藏待机场景根对象
             Scene targetScene = SceneManager.GetSceneByName("IdleScene");
@@ -34,8 +34,10 @@ public class BreakIdle : MonoBehaviour
                         obj.SetActive(true);
                 }
             }
+
+            ShouldIdle = false ;
         }
-
-
     }
+
+    
 }

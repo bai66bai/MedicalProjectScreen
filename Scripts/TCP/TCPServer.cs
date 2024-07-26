@@ -40,6 +40,9 @@ public class TCPServer : MonoBehaviour
 
                 TcpClient tcpClient = clientTask.Result;
 
+                // 打断Idle
+                IdleCtrl.BreakAndReset();
+
                 // 处理客户端请求
                 StartCoroutine(HandleClient(tcpClient));
             }

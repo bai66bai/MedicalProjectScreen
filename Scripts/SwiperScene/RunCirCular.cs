@@ -21,4 +21,11 @@ public class RunCirCular : MonoBehaviour
             yield return new WaitForSeconds(interval);
         }
     }
+    private void OnDisable()
+    {
+        for (int i = 0; i < RunNum; i++)
+        {
+            images[i].enabled = true;
+        }
+    }
 }
