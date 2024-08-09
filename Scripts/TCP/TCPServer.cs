@@ -42,9 +42,8 @@ public class TCPServer : MonoBehaviour
 
                 // 打断Idle
                 IdleCtrl.BreakAndReset();
-
-                // 处理客户端请求
-                StartCoroutine(HandleClient(tcpClient));
+                // 处理客户端请求               
+                StartCoroutine(HandleClient(tcpClient));              
             }
             yield return null; // 避免阻塞
         }
@@ -60,7 +59,11 @@ public class TCPServer : MonoBehaviour
 
         string request = Encoding.UTF8.GetString(buffer, 0, readTask.Result);
         Debug.Log("Received: " + request);
+
+        if(request != "break")
+        {
         tcpMsgHandler.OnMsg(request);
+        }
 
         // 发送响应
 /*        string response = "Success";
