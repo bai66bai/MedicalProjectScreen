@@ -3,6 +3,7 @@ using System.Net;
 using System.Net.Sockets;
 using System.Text;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class TCPServer : MonoBehaviour
 {
@@ -13,7 +14,7 @@ public class TCPServer : MonoBehaviour
     private bool isServerRunning = true;
     private TCPMsgHandler tcpMsgHandler;
 
-    void Start()
+    void Awake()
     {
         // 启动服务器监听协程
         StartCoroutine(ServerSetup());
@@ -59,7 +60,7 @@ public class TCPServer : MonoBehaviour
 
         string request = Encoding.UTF8.GetString(buffer, 0, readTask.Result);
         Debug.Log("Received: " + request);
-
+        Debug.Log(SceneManager.GetActiveScene().name);
         if(request != "break")
         {
         tcpMsgHandler.OnMsg(request);

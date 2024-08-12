@@ -1,6 +1,5 @@
 ﻿
 using System.Linq;
-using UnityEditor;
 
 namespace Assets.Scripts.DetailScene
 {
@@ -10,6 +9,7 @@ namespace Assets.Scripts.DetailScene
 
         public override void HandleMsg(string msg)
         {
+
             string[] splitedMsg = msg.Split(":");
             if (splitedMsg[0] != "detail") throw new System.NotImplementedException();
             MenuItem currentItem = scrollMenu.menuItems
@@ -24,8 +24,8 @@ namespace Assets.Scripts.DetailScene
 
             beforeItem.InactivateItem();
 
-            int pos = scrollMenu.menuItems.IndexOf(currentItem);
             currentItem.ActivateItem();
+            
         }
     }
 }

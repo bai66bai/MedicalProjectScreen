@@ -686,6 +686,11 @@ PrefabInstance:
       propertyPath: id
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 559728810343122928, guid: c2c222ba46812f84ba873331439fe657,
+        type: 3}
+      propertyPath: LevelLoader
+      value: 
+      objectReference: {fileID: 303147982}
     - target: {fileID: 694072291326811198, guid: c2c222ba46812f84ba873331439fe657,
         type: 3}
       propertyPath: m_Pivot.x
@@ -1154,6 +1159,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   swiper: {fileID: 1716488005}
+--- !u!114 &303147982 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 786659471113198517, guid: b67cd987ee8d67741ad86bbbe679eeca,
+    type: 3}
+  m_PrefabInstance: {fileID: 1351102449}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 303147976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f52cc68355443e945aa28f7a8f5c086d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &320586179
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1180,6 +1197,11 @@ PrefabInstance:
       propertyPath: id
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 559728810343122928, guid: c2c222ba46812f84ba873331439fe657,
+        type: 3}
+      propertyPath: LevelLoader
+      value: 
+      objectReference: {fileID: 303147982}
     - target: {fileID: 694072291326811198, guid: c2c222ba46812f84ba873331439fe657,
         type: 3}
       propertyPath: m_Pivot.x
@@ -1526,6 +1548,11 @@ PrefabInstance:
       propertyPath: id
       value: 9
       objectReference: {fileID: 0}
+    - target: {fileID: 559728810343122928, guid: c2c222ba46812f84ba873331439fe657,
+        type: 3}
+      propertyPath: LevelLoader
+      value: 
+      objectReference: {fileID: 303147982}
     - target: {fileID: 694072291326811198, guid: c2c222ba46812f84ba873331439fe657,
         type: 3}
       propertyPath: m_Pivot.x
@@ -2000,6 +2027,11 @@ PrefabInstance:
       propertyPath: id
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 559728810343122928, guid: c2c222ba46812f84ba873331439fe657,
+        type: 3}
+      propertyPath: LevelLoader
+      value: 
+      objectReference: {fileID: 303147982}
     - target: {fileID: 694072291326811198, guid: c2c222ba46812f84ba873331439fe657,
         type: 3}
       propertyPath: m_Pivot.x
@@ -3555,6 +3587,11 @@ PrefabInstance:
       propertyPath: id
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 559728810343122928, guid: c2c222ba46812f84ba873331439fe657,
+        type: 3}
+      propertyPath: LevelLoader
+      value: 
+      objectReference: {fileID: 303147982}
     - target: {fileID: 694072291326811198, guid: c2c222ba46812f84ba873331439fe657,
         type: 3}
       propertyPath: m_Pivot.x
@@ -6143,6 +6180,11 @@ PrefabInstance:
       propertyPath: id
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 559728810343122928, guid: c2c222ba46812f84ba873331439fe657,
+        type: 3}
+      propertyPath: LevelLoader
+      value: 
+      objectReference: {fileID: 303147982}
     - target: {fileID: 694072291326811198, guid: c2c222ba46812f84ba873331439fe657,
         type: 3}
       propertyPath: m_Pivot.x
@@ -6624,6 +6666,11 @@ PrefabInstance:
       propertyPath: id
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 559728810343122928, guid: c2c222ba46812f84ba873331439fe657,
+        type: 3}
+      propertyPath: LevelLoader
+      value: 
+      objectReference: {fileID: 303147982}
     - target: {fileID: 694072291326811198, guid: c2c222ba46812f84ba873331439fe657,
         type: 3}
       propertyPath: m_Pivot.x
@@ -6964,6 +7011,11 @@ PrefabInstance:
       propertyPath: id
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 559728810343122928, guid: c2c222ba46812f84ba873331439fe657,
+        type: 3}
+      propertyPath: LevelLoader
+      value: 
+      objectReference: {fileID: 303147982}
     - target: {fileID: 694072291326811198, guid: c2c222ba46812f84ba873331439fe657,
         type: 3}
       propertyPath: m_Pivot.x
@@ -7169,6 +7221,11 @@ PrefabInstance:
       propertyPath: id
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 559728810343122928, guid: c2c222ba46812f84ba873331439fe657,
+        type: 3}
+      propertyPath: LevelLoader
+      value: 
+      objectReference: {fileID: 303147982}
     - target: {fileID: 694072291326811198, guid: c2c222ba46812f84ba873331439fe657,
         type: 3}
       propertyPath: m_Pivot.x
@@ -7375,6 +7432,11 @@ PrefabInstance:
       propertyPath: m_Color.a
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 559728810343122928, guid: c2c222ba46812f84ba873331439fe657,
+        type: 3}
+      propertyPath: LevelLoader
+      value: 
+      objectReference: {fileID: 303147982}
     - target: {fileID: 694072291326811198, guid: c2c222ba46812f84ba873331439fe657,
         type: 3}
       propertyPath: m_Pivot.x
