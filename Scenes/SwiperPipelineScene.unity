@@ -376,7 +376,7 @@ PrefabInstance:
     - target: {fileID: 6540334115590076945, guid: 6a423d8e39f2fd542840596ae410d22d,
         type: 3}
       propertyPath: RunNum
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6586733712531367264, guid: 6a423d8e39f2fd542840596ae410d22d,
         type: 3}
@@ -865,7 +865,7 @@ PrefabInstance:
     - target: {fileID: 6540334115590076945, guid: 6a423d8e39f2fd542840596ae410d22d,
         type: 3}
       propertyPath: RunNum
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6586733712531367264, guid: 6a423d8e39f2fd542840596ae410d22d,
         type: 3}
@@ -2925,7 +2925,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u7EFC\u5408\u4EA7\u54C1\u7BA1\u7EBF |"
+  m_text: "\u7EFC\u5408\u4EA7\u54C1\u7EBF |"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f4d7117bc156fe40a0ab7538846fb61, type: 2}
   m_sharedMaterial: {fileID: 5707268974503351364, guid: 8f4d7117bc156fe40a0ab7538846fb61,
@@ -2963,7 +2963,7 @@ MonoBehaviour:
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
-  m_characterSpacing: 0
+  m_characterSpacing: 1.25
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -5467,7 +5467,7 @@ PrefabInstance:
     - target: {fileID: 6540334115590076945, guid: 6a423d8e39f2fd542840596ae410d22d,
         type: 3}
       propertyPath: RunNum
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6586733712531367264, guid: 6a423d8e39f2fd542840596ae410d22d,
         type: 3}
@@ -6608,8 +6608,8 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 470673131}
-  - {fileID: 1103969378}
   - {fileID: 52052231}
+  - {fileID: 1103969378}
   - {fileID: 326992430}
   - {fileID: 1111419166}
   m_Father: {fileID: 598314927}
@@ -9209,8 +9209,8 @@ RectTransform:
   - {fileID: 493320482}
   - {fileID: 1497199686}
   - {fileID: 2092983621}
-  - {fileID: 479339617}
   - {fileID: 1949659414}
+  - {fileID: 479339617}
   - {fileID: 1053045627}
   - {fileID: 797897908}
   - {fileID: 693735290}
@@ -9700,7 +9700,7 @@ PrefabInstance:
     - target: {fileID: 6540334115590076945, guid: 6a423d8e39f2fd542840596ae410d22d,
         type: 3}
       propertyPath: RunNum
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6586733712531367264, guid: 6a423d8e39f2fd542840596ae410d22d,
         type: 3}
@@ -10270,7 +10270,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -599, y: 359}
+  m_AnchoredPosition: {x: -673, y: 359}
   m_SizeDelta: {x: 1033.8053, y: 120.57}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1975333394
@@ -10293,7 +10293,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Integrated Product Pipeline
+  m_text: General Biomedicine
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7b7242b2bccea88499a4c07e258d20b4, type: 2}
   m_sharedMaterial: {fileID: -8825257223906148109, guid: 7b7242b2bccea88499a4c07e258d20b4,
@@ -10331,7 +10331,7 @@ MonoBehaviour:
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
-  m_characterSpacing: 0
+  m_characterSpacing: 2.77
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
