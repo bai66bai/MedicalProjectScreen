@@ -242,7 +242,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 718821b8835837842a9c7c85e751490b,
+      objectReference: {fileID: 21300000, guid: 34cde5b5b5b5e3f4ab8b1b2930affe24,
         type: 3}
     - target: {fileID: 6540334115590076945, guid: 6a423d8e39f2fd542840596ae410d22d,
         type: 3}
@@ -371,7 +371,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: a127eca3c1f26ca4ea38b9dfb641c261,
+      objectReference: {fileID: 21300000, guid: 2ac809845f824ab4e9f7949ced9c08a5,
         type: 3}
     - target: {fileID: 6540334115590076945, guid: 6a423d8e39f2fd542840596ae410d22d,
         type: 3}
@@ -461,7 +461,7 @@ PrefabInstance:
     - target: {fileID: 6586733712531367264, guid: 6a423d8e39f2fd542840596ae410d22d,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 749.5
+      value: 460.5
       objectReference: {fileID: 0}
     - target: {fileID: 6586733712531367264, guid: 6a423d8e39f2fd542840596ae410d22d,
         type: 3}
@@ -584,7 +584,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: f47f35d3277af3145af4ffb88e84de71,
+      objectReference: {fileID: 21300000, guid: c6fbd97583f44004487f02fd57fec132,
         type: 3}
     - target: {fileID: 6540334115590076945, guid: 6a423d8e39f2fd542840596ae410d22d,
         type: 3}
@@ -855,7 +855,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 3121d30552350ee448a0fd65d92d8fca,
+      objectReference: {fileID: 21300000, guid: d0855be5ffb5ac94cb4ed38363dde2b6,
         type: 3}
     - target: {fileID: 6540334115590076945, guid: 6a423d8e39f2fd542840596ae410d22d,
         type: 3}
@@ -1775,7 +1775,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 51949df1e6463e3468256551bef85c32, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 35421aa943ec1b1489474d89bfac91e2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1810,7 +1810,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 46ffa545d595d7e4ebce598d55682d57,
+      objectReference: {fileID: 21300000, guid: d633fd3229d9dfc4cb48cd07bbe235c3,
         type: 3}
     - target: {fileID: 6586733712531367264, guid: 6a423d8e39f2fd542840596ae410d22d,
         type: 3}
@@ -2028,7 +2028,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: f47f35d3277af3145af4ffb88e84de71,
+      objectReference: {fileID: 21300000, guid: c6fbd97583f44004487f02fd57fec132,
         type: 3}
     - target: {fileID: 6540334115590076945, guid: 6a423d8e39f2fd542840596ae410d22d,
         type: 3}
@@ -2268,8 +2268,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281545523
-  m_fontColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -2399,7 +2399,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ae30cc542bf5a004bbb0f4bd39eacb48, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1ebc2415eb90f2f4caba6d5f334ea86d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2509,7 +2509,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: ebfab37be6febab489eab801bbe29f6c,
+      objectReference: {fileID: 21300000, guid: 3fc0883d5523d4b48992375f980117c5,
         type: 3}
     - target: {fileID: 6540334115590076945, guid: 6a423d8e39f2fd542840596ae410d22d,
         type: 3}
@@ -2935,8 +2935,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4291321136
-  m_fontColor: {r: 0.1882353, g: 0.3647059, b: 0.78431374, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -3192,7 +3192,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 07f5bd0e740208347a94e4133bad084e,
+      objectReference: {fileID: 21300000, guid: 0d1fae67147339047a3ad925b766da24,
         type: 3}
     - target: {fileID: 6540334115590076945, guid: 6a423d8e39f2fd542840596ae410d22d,
         type: 3}
@@ -3366,7 +3366,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3ac4505e3ab209f4d9931b0d32d13eae, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 02b00a27f96218a4390a7a752ad99f2b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3457,8 +3457,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4286611584
-  m_fontColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -3577,7 +3577,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 4015a72a63e78104a89da2461c90b95f,
+      objectReference: {fileID: 21300000, guid: a32a94640fb74d345ba75fe6a913827b,
         type: 3}
     - target: {fileID: 6540334115590076945, guid: 6a423d8e39f2fd542840596ae410d22d,
         type: 3}
@@ -3991,8 +3991,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4288256409
-  m_fontColor: {r: 0.6, g: 0.6, b: 0.6, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -4076,7 +4076,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 5ecb40a61f7042b479e7ad28e760e063,
+      objectReference: {fileID: 21300000, guid: afcd13b8e6fb14f40a51432a9c7eb097,
         type: 3}
     - target: {fileID: 6540334115590076945, guid: 6a423d8e39f2fd542840596ae410d22d,
         type: 3}
@@ -4349,7 +4349,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 8ffb890629a618243b522110f9e1fd64,
+      objectReference: {fileID: 21300000, guid: 8f4ced2a42680c94e8c4717a6f7c9b9f,
         type: 3}
     - target: {fileID: 6540334115590076945, guid: 6a423d8e39f2fd542840596ae410d22d,
         type: 3}
@@ -4528,7 +4528,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d6e60aae7fb0c1f42b33232e8a00e62a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fd9f003487d0e3a45a6e57d25448ad1b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4598,7 +4598,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 07f5bd0e740208347a94e4133bad084e,
+      objectReference: {fileID: 21300000, guid: 0d1fae67147339047a3ad925b766da24,
         type: 3}
     - target: {fileID: 6540334115590076945, guid: 6a423d8e39f2fd542840596ae410d22d,
         type: 3}
@@ -4897,7 +4897,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: c207d29c8748c234498a912ce4cea9a3,
+      objectReference: {fileID: 21300000, guid: 9660c1cc55cbfe343b89f719586e94d1,
         type: 3}
     - target: {fileID: 6540334115590076945, guid: 6a423d8e39f2fd542840596ae410d22d,
         type: 3}
@@ -4987,7 +4987,7 @@ PrefabInstance:
     - target: {fileID: 6586733712531367264, guid: 6a423d8e39f2fd542840596ae410d22d,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 460.5
+      value: 749.5
       objectReference: {fileID: 0}
     - target: {fileID: 6586733712531367264, guid: 6a423d8e39f2fd542840596ae410d22d,
         type: 3}
@@ -5072,7 +5072,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 77009c61125b8aa429c78b4851aa943c,
+      objectReference: {fileID: 21300000, guid: 8acbb4ee710a53d429b250c4446cfa3c,
         type: 3}
     - target: {fileID: 6540334115590076945, guid: 6a423d8e39f2fd542840596ae410d22d,
         type: 3}
@@ -5251,7 +5251,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3ac4505e3ab209f4d9931b0d32d13eae, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 02b00a27f96218a4390a7a752ad99f2b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5326,7 +5326,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 9e002bf8a8058684ab45a43e0b5f0504, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3327c8e0a251a424eb07fa8819e2bc5f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5457,7 +5457,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: a127eca3c1f26ca4ea38b9dfb641c261,
+      objectReference: {fileID: 21300000, guid: 2ac809845f824ab4e9f7949ced9c08a5,
         type: 3}
     - target: {fileID: 6540334115590076945, guid: 6a423d8e39f2fd542840596ae410d22d,
         type: 3}
@@ -5646,8 +5646,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4286611584
-  m_fontColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -5771,7 +5771,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3ac4505e3ab209f4d9931b0d32d13eae, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 02b00a27f96218a4390a7a752ad99f2b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5846,7 +5846,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 084f20d4b864e464fb851036256d1bbd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b8ab2fee12665b04f9c4dcf1acd9502d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5887,7 +5887,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 8ffb890629a618243b522110f9e1fd64,
+      objectReference: {fileID: 21300000, guid: 8f4ced2a42680c94e8c4717a6f7c9b9f,
         type: 3}
     - target: {fileID: 6540334115590076945, guid: 6a423d8e39f2fd542840596ae410d22d,
         type: 3}
@@ -6082,8 +6082,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4286611584
-  m_fontColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -6813,8 +6813,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4288256409
-  m_fontColor: {r: 0.6, g: 0.6, b: 0.6, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -6971,7 +6971,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: ebfab37be6febab489eab801bbe29f6c,
+      objectReference: {fileID: 21300000, guid: 3fc0883d5523d4b48992375f980117c5,
         type: 3}
     - target: {fileID: 6540334115590076945, guid: 6a423d8e39f2fd542840596ae410d22d,
         type: 3}
@@ -7105,7 +7105,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 4015a72a63e78104a89da2461c90b95f,
+      objectReference: {fileID: 21300000, guid: a32a94640fb74d345ba75fe6a913827b,
         type: 3}
     - target: {fileID: 6540334115590076945, guid: 6a423d8e39f2fd542840596ae410d22d,
         type: 3}
@@ -7334,8 +7334,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4286611584
-  m_fontColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -7718,8 +7718,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4286611584
-  m_fontColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -7803,7 +7803,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: a04935d7b57d11e4bb1a1d6dadf2ee0b,
+      objectReference: {fileID: 21300000, guid: edd317c9cc5570e41844f8996ce4414d,
         type: 3}
     - target: {fileID: 6586733712531367264, guid: 6a423d8e39f2fd542840596ae410d22d,
         type: 3}
@@ -7932,7 +7932,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 46ffa545d595d7e4ebce598d55682d57,
+      objectReference: {fileID: 21300000, guid: d633fd3229d9dfc4cb48cd07bbe235c3,
         type: 3}
     - target: {fileID: 6586733712531367264, guid: 6a423d8e39f2fd542840596ae410d22d,
         type: 3}
@@ -8233,7 +8233,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 99f61a7a0ad7e2b4c9329c20ed132c1e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b745ad01c9006f84790315a258b85bfa, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -8437,7 +8437,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6724c93dc86910847acdd129d1fb255b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 50a3d13363f52e04299dde326a26a3a6, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -8522,8 +8522,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4286611584
-  m_fontColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -8607,7 +8607,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 77009c61125b8aa429c78b4851aa943c,
+      objectReference: {fileID: 21300000, guid: 8acbb4ee710a53d429b250c4446cfa3c,
         type: 3}
     - target: {fileID: 6540334115590076945, guid: 6a423d8e39f2fd542840596ae410d22d,
         type: 3}
@@ -8791,8 +8791,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4286611584
-  m_fontColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -9285,7 +9285,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 718821b8835837842a9c7c85e751490b,
+      objectReference: {fileID: 21300000, guid: 34cde5b5b5b5e3f4ab8b1b2930affe24,
         type: 3}
     - target: {fileID: 6540334115590076945, guid: 6a423d8e39f2fd542840596ae410d22d,
         type: 3}
@@ -9518,8 +9518,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4288256409
-  m_fontColor: {r: 0.6, g: 0.6, b: 0.6, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -9690,7 +9690,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 3121d30552350ee448a0fd65d92d8fca,
+      objectReference: {fileID: 21300000, guid: d0855be5ffb5ac94cb4ed38363dde2b6,
         type: 3}
     - target: {fileID: 6540334115590076945, guid: 6a423d8e39f2fd542840596ae410d22d,
         type: 3}
@@ -9904,7 +9904,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 8b94510731588844ab151bb5adb769f9,
+      objectReference: {fileID: 21300000, guid: 5fac737f8092e6e43af30222de289c40,
         type: 3}
     - target: {fileID: 6540334115590076945, guid: 6a423d8e39f2fd542840596ae410d22d,
         type: 3}
@@ -10049,7 +10049,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: a04935d7b57d11e4bb1a1d6dadf2ee0b,
+      objectReference: {fileID: 21300000, guid: edd317c9cc5570e41844f8996ce4414d,
         type: 3}
     - target: {fileID: 6586733712531367264, guid: 6a423d8e39f2fd542840596ae410d22d,
         type: 3}
@@ -10218,7 +10218,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: df9c9f736a6e29248aaa646da5d37747, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 40022e4ee2bdf5e4c890960e3b9d4934, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -10303,8 +10303,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4291321136
-  m_fontColor: {r: 0.1882353, g: 0.3647059, b: 0.78431374, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -10388,7 +10388,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 5ecb40a61f7042b479e7ad28e760e063,
+      objectReference: {fileID: 21300000, guid: afcd13b8e6fb14f40a51432a9c7eb097,
         type: 3}
     - target: {fileID: 6540334115590076945, guid: 6a423d8e39f2fd542840596ae410d22d,
         type: 3}
@@ -10522,7 +10522,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: c207d29c8748c234498a912ce4cea9a3,
+      objectReference: {fileID: 21300000, guid: 9660c1cc55cbfe343b89f719586e94d1,
         type: 3}
     - target: {fileID: 6540334115590076945, guid: 6a423d8e39f2fd542840596ae410d22d,
         type: 3}
@@ -10701,7 +10701,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3ac4505e3ab209f4d9931b0d32d13eae, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 02b00a27f96218a4390a7a752ad99f2b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -11044,7 +11044,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 8b94510731588844ab151bb5adb769f9,
+      objectReference: {fileID: 21300000, guid: 5fac737f8092e6e43af30222de289c40,
         type: 3}
     - target: {fileID: 6540334115590076945, guid: 6a423d8e39f2fd542840596ae410d22d,
         type: 3}

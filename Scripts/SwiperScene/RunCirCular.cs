@@ -17,7 +17,7 @@ public class RunCirCular : MonoBehaviour
         yield return null;
         for (int i = 0; i < RunNum; i++)
         {
-            images[i].enabled = true;
+            images[i].enabled = false;
             yield return new WaitForSeconds(interval);
         }
     }
@@ -25,7 +25,7 @@ public class RunCirCular : MonoBehaviour
     {
         for (int i = 0; i < RunNum; i++)
         {
-            images[i].enabled = true;
+            images[i].enabled = false;
         }
     }
 }

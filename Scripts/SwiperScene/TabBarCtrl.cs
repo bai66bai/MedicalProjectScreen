@@ -14,22 +14,21 @@ public class TabBarCtrl : MonoBehaviour
 
     public GameObject ActiveSwiper;
 
-    private readonly Color _defaultColor = new(0.63f, 0.63f, 0.63f, 1f);
-
+    //private readonly Color _defaultColor = new(0.63f, 0.63f, 0.63f, 1f);
     public void HandleClick(string textContent)
     {
         textMeshProUGUIs.ForEach(textMeshPro =>
         {
             if (textMeshPro.text != textContent)
             {
-                textMeshPro.color = _defaultColor;
+                //textMeshPro.color = _defaultColor;
                 textMeshPro.fontStyle = FontStyles.Normal;
             }
             else
             {
 
                 int index = textMeshProUGUIs.IndexOf(textMeshPro);
-                textMeshPro.color = new(51/255f, 51/255f, 51/255f, 1f);
+                //textMeshPro.color = new(51/255f, 51/255f, 51/255f, 1f);
                 textMeshPro.fontStyle = FontStyles.Bold;
 
              

@@ -140,7 +140,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &42126648
 RectTransform:
   m_ObjectHideFlags: 0
@@ -275,7 +275,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &80307418
 RectTransform:
   m_ObjectHideFlags: 0
@@ -410,7 +410,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &109404195
 RectTransform:
   m_ObjectHideFlags: 0
@@ -675,7 +675,7 @@ PrefabInstance:
     - target: {fileID: 2694029419193895, guid: c2c222ba46812f84ba873331439fe657, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: f4a76287446489248ad5a29ee0c5f123,
+      objectReference: {fileID: 21300000, guid: 9579de962ba67e149a9a7b0d08b986b3,
         type: 3}
     - target: {fileID: 2694029419193895, guid: c2c222ba46812f84ba873331439fe657, type: 3}
       propertyPath: m_Color.a
@@ -852,6 +852,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SwiperItem (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 8611648478301768178, guid: c2c222ba46812f84ba873331439fe657,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 5714302617489242442, guid: c2c222ba46812f84ba873331439fe657, type: 3}
     m_RemovedGameObjects: []
@@ -887,7 +892,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &208940718
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1022,7 +1027,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &261463591
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1186,7 +1191,7 @@ PrefabInstance:
     - target: {fileID: 2694029419193895, guid: c2c222ba46812f84ba873331439fe657, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: bfed948ab4cc69b4386a4c20e50bdfee,
+      objectReference: {fileID: 21300000, guid: b63152c0dfbf4a24aac80596a2c9ccf5,
         type: 3}
     - target: {fileID: 2694029419193895, guid: c2c222ba46812f84ba873331439fe657, type: 3}
       propertyPath: m_Color.a
@@ -1363,6 +1368,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SwiperItem (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 8611648478301768178, guid: c2c222ba46812f84ba873331439fe657,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 5714302617489242442, guid: c2c222ba46812f84ba873331439fe657, type: 3}
     m_RemovedGameObjects: []
@@ -1398,7 +1408,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &324957067
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1537,7 +1547,7 @@ PrefabInstance:
     - target: {fileID: 2694029419193895, guid: c2c222ba46812f84ba873331439fe657, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 0cabce621a7e5134d9834a680d03c1cb,
+      objectReference: {fileID: 21300000, guid: db3ed8b0cf72ba641a2b7658af04ecd1,
         type: 3}
     - target: {fileID: 2694029419193895, guid: c2c222ba46812f84ba873331439fe657, type: 3}
       propertyPath: m_Color.a
@@ -1714,6 +1724,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SwiperItem (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 8611648478301768178, guid: c2c222ba46812f84ba873331439fe657,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 5714302617489242442, guid: c2c222ba46812f84ba873331439fe657, type: 3}
     m_RemovedGameObjects: []
@@ -1883,7 +1898,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &515184376
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2016,7 +2031,7 @@ PrefabInstance:
     - target: {fileID: 2694029419193895, guid: c2c222ba46812f84ba873331439fe657, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 4abd25c761c638147b810bdc069cb4d0,
+      objectReference: {fileID: 21300000, guid: 95f5fcd9373edd844a3d588b9b1c0c08,
         type: 3}
     - target: {fileID: 2694029419193895, guid: c2c222ba46812f84ba873331439fe657, type: 3}
       propertyPath: m_Color.a
@@ -2234,7 +2249,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &560048224
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2369,7 +2384,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &624125289
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2504,7 +2519,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &690898590
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2768,7 +2783,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &729397469
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2903,7 +2918,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &747166315
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3038,7 +3053,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &749625098
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3173,7 +3188,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &758842069
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3308,7 +3323,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &766455010
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3443,7 +3458,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &816826935
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3576,7 +3591,7 @@ PrefabInstance:
     - target: {fileID: 2694029419193895, guid: c2c222ba46812f84ba873331439fe657, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: cf7890ebaee25974fb97f2fa4c0c0dc8,
+      objectReference: {fileID: 21300000, guid: 8a555bd7e84efd64897a7e601fc1528a,
         type: 3}
     - target: {fileID: 2694029419193895, guid: c2c222ba46812f84ba873331439fe657, type: 3}
       propertyPath: m_Color.a
@@ -3794,7 +3809,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &902582501
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3929,7 +3944,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &922146269
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4415,7 +4430,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1241051382
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4550,7 +4565,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1245258220
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4685,7 +4700,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1275509427
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4820,7 +4835,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1293318800
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5153,7 +5168,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1484104951
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5398,7 +5413,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: db1644ab781660f4eb505fde732b9c17, type: 3}
+  m_Sprite: {fileID: 21300000, guid: bbe1caa0e19c2114492810fa9f79f02a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5433,7 +5448,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1619645869
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5574,7 +5589,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1713185876
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5720,7 +5735,7 @@ RectTransform:
   m_GameObject: {fileID: 1716488000}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.85, y: 1.85, z: 1}
+  m_LocalScale: {x: 1.86, y: 1.85, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 925164667}
@@ -5809,7 +5824,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1722256736
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5944,7 +5959,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1757397618
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6209,7 +6224,7 @@ PrefabInstance:
     - target: {fileID: 2694029419193895, guid: c2c222ba46812f84ba873331439fe657, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 51b9d065f363d7540bfc3f805b7c9592,
+      objectReference: {fileID: 21300000, guid: 1a15c0a8536aaf04c80299494dece879,
         type: 3}
     - target: {fileID: 2694029419193895, guid: c2c222ba46812f84ba873331439fe657, type: 3}
       propertyPath: m_Color.a
@@ -6427,7 +6442,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1803069866
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6562,7 +6577,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1829207149
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6695,7 +6710,7 @@ PrefabInstance:
     - target: {fileID: 2694029419193895, guid: c2c222ba46812f84ba873331439fe657, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 210b073ff2938d143a0ccf5ddd87226a,
+      objectReference: {fileID: 21300000, guid: a74a37571132129459844e917a48ba3c,
         type: 3}
     - target: {fileID: 2694029419193895, guid: c2c222ba46812f84ba873331439fe657, type: 3}
       propertyPath: m_Color.a
@@ -6872,6 +6887,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SwiperItem (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 8611648478301768178, guid: c2c222ba46812f84ba873331439fe657,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 5714302617489242442, guid: c2c222ba46812f84ba873331439fe657, type: 3}
     m_RemovedGameObjects: []
@@ -6907,7 +6927,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2075287817
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7040,7 +7060,7 @@ PrefabInstance:
     - target: {fileID: 2694029419193895, guid: c2c222ba46812f84ba873331439fe657, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: a75b29d273ed5d84dac910fec1418030,
+      objectReference: {fileID: 21300000, guid: a88a07ebcfd91394b9dac8373e14d62f,
         type: 3}
     - target: {fileID: 2694029419193895, guid: c2c222ba46812f84ba873331439fe657, type: 3}
       propertyPath: m_Color.a
@@ -7217,6 +7237,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SwiperItem (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 8611648478301768178, guid: c2c222ba46812f84ba873331439fe657,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 5714302617489242442, guid: c2c222ba46812f84ba873331439fe657, type: 3}
     m_RemovedGameObjects: []
@@ -7250,7 +7275,7 @@ PrefabInstance:
     - target: {fileID: 2694029419193895, guid: c2c222ba46812f84ba873331439fe657, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 2874187d8feca1843b985d1e0768ebe3,
+      objectReference: {fileID: 21300000, guid: 8f1d53bb1d9db754383eade9826faf77,
         type: 3}
     - target: {fileID: 2694029419193895, guid: c2c222ba46812f84ba873331439fe657, type: 3}
       propertyPath: m_Color.a
@@ -7466,7 +7491,7 @@ PrefabInstance:
     - target: {fileID: 2694029419193895, guid: c2c222ba46812f84ba873331439fe657, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: a8228c49fa269354ba128ddfd5b5ee1e,
+      objectReference: {fileID: 21300000, guid: 173f7f08925be314295348839be38793,
         type: 3}
     - target: {fileID: 2694029419193895, guid: c2c222ba46812f84ba873331439fe657, type: 3}
       propertyPath: m_Color.a
