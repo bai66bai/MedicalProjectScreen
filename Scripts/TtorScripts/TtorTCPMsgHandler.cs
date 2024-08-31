@@ -64,7 +64,19 @@ public class TtorTCPMsgHandler : TCPMsgHandler
                             {
                          ctrlContentChange.GetComponentInChildren<CtrlCases>().ChangeCases(content[0]);
                             }
-                    break;
+                            break;
+                case "changeSize":
+                    {
+                        if (content[0] == "big")
+                        {
+                            ctrlContentChange.GetComponentInChildren<PathologicalCrtl>().ShowImageActive();
+                        }
+                        else if(content[0] == "small")
+                        {
+                            ctrlContentChange.GetComponentInChildren<PathologicalCrtl>().DisableImageActive();
+                        }
+                        break;
+                    }
                     }
         }
         
