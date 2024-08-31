@@ -71,6 +71,4 @@ public class CtrContentActive : MonoBehaviour
             u.localPosition = StartPosition;
         });
     }
-
-
 }

@@ -37,16 +37,35 @@ public class TouchSwiper : MonoBehaviour, IEndDragHandler
 
     private void Awake()
     {
-        Index = 0;
-        Swipers = ContentTransform.gameObject.GetComponentsInChildren<RunCirCular>().ToList();
-        scrollRect = GetComponent<ScrollRect>();
-        RunCir(Index);
-        itemNum = scrollRect.content.childCount / (float)itemSize;
-        swipeStep = 1f / (itemNum - 1);
-        if ((itemNum - 1) < 1)
+       Debug.Log(SwippStore.normalizedPositionX + "" +  SwippStore.Index);
+
+        if(TTorStore.LastSceneName == "TTOR_Scene" && SwippStore.normalizedPositionX != 0)
         {
-            swipeStep = 1f;
+            Swipers = ContentTransform.gameObject.GetComponentsInChildren<RunCirCular>().ToList();
+            scrollRect = GetComponent<ScrollRect>();
+            RunCir(SwippStore.Index);
+            itemNum = scrollRect.content.childCount / (float)itemSize;
+            swipeStep = 1f / (itemNum - 1);
+            if ((itemNum - 1) < 1)
+            {
+                swipeStep = 1f;
+            }
+            scrollRect.normalizedPosition = new Vector2 (SwippStore.normalizedPositionX, scrollRect.normalizedPosition.y);
         }
+        else
+        {
+                    Index = 0;
+                    Swipers = ContentTransform.gameObject.GetComponentsInChildren<RunCirCular>().ToList();
+                    scrollRect = GetComponent<ScrollRect>();
+                    RunCir(Index);
+                    itemNum = scrollRect.content.childCount / (float)itemSize;
+                    swipeStep = 1f / (itemNum - 1);
+                    if ((itemNum - 1) < 1)
+                    {
+                        swipeStep = 1f;
+                    }
+        }
+        
     }
 
     public void OnEndDrag(PointerEventData eventData)
@@ -163,7 +182,23 @@ public class TouchSwiper : MonoBehaviour, IEndDragHandler
 
     private void OnDisable()
     {
+        remberMessage();
         scrollRect.normalizedPosition = new Vector2(0, 0);
         ChangeDisAble();
+    }
+
+    private void remberMessage()
+    {
+        if(TTorStore.NextSceneName != "TTOR_Scene")
+        {
+            SwippStore.normalizedPositionX = 0;
+            SwippStore.Index = 0;
+        }
+        else
+        {
+            SwippStore.normalizedPositionX = targetHorizontalPosition;
+            SwippStore.Index = Index;
+        }
+        
     }
 }

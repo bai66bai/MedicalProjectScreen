@@ -1,6 +1,7 @@
 ﻿using Assets.Scripts.Utils.DoublyCircularLinkedList;
 using System;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
@@ -17,6 +18,7 @@ namespace Assets.Scripts.ProductCenterProMax
 
         void Start()
         {
+           
             displayTrain.Offset = Offset;
             displayTrain.ItemSize = ItemSize;
 
@@ -32,6 +34,23 @@ namespace Assets.Scripts.ProductCenterProMax
                 }
             }
             UpdateLayer();
+            if (TTorStore.LastSceneName == "TTOR_Scene" && ProductMaxStore.SwiperCount != 0)
+            {
+                if (ProductMaxStore.SwiperCount > 0)
+                {
+                    for (int i = 0; i < Mathf.Abs(ProductMaxStore.SwiperCount); i++)
+                    {
+                        SwipeOnce(SwipeDirection.Left);
+                    }
+                }
+                else
+                {
+                    for (int i = 0; i < Mathf.Abs(ProductMaxStore.SwiperCount); i++)
+                    {
+                        SwipeOnce(SwipeDirection.Right);
+                    }
+                }
+            }
         }
 
 
@@ -158,5 +177,12 @@ namespace Assets.Scripts.ProductCenterProMax
             }
         }
 
+        private void OnDestroy()
+        {
+            if (TTorStore.NextSceneName != "TTOR_Scene")
+                ProductMaxStore.SwiperCount = 0;
+        }
     }
+
+   
 }

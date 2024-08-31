@@ -7,7 +7,7 @@ using UnityEngine.UI;
 
 public class Turnthepage : MonoBehaviour
 {
-   public GameObject TabBar;
+    public GameObject TabBar;
 
     public List<GameObject> Btns;
 
@@ -81,6 +81,5 @@ public class Turnthepage : MonoBehaviour
             Rights[1].enabled = true;
         }
     }
-
 
 }

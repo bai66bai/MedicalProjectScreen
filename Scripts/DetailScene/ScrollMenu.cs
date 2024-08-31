@@ -125,6 +125,4 @@ public class ScrollMenu : MonoBehaviour, IEndDragHandler, IBeginDragHandler
         scrollRect.normalizedPosition = new Vector2(scrollRect.normalizedPosition.x, pos);
     }
 
-    
-
 }

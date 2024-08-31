@@ -28,6 +28,7 @@ public class LevelLoader : MonoBehaviour
         yield return new WaitForSeconds(transitionTime);
 
         LevelStore.LastSceneName = SceneManager.GetActiveScene().name;
+        TTorStore.LastSceneName = SceneManager.GetActiveScene().name;
 
         // ÇÐ»»³¡¾°
         SceneManager.LoadScene(sceneName);

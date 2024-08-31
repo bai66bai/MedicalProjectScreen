@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
@@ -15,6 +16,22 @@ public class TabBarCtrl : MonoBehaviour
     public GameObject ActiveSwiper;
 
     //private readonly Color _defaultColor = new(0.63f, 0.63f, 0.63f, 1f);
+
+    private void Start()
+    {
+        if(TTorStore.LastSceneName == "TTOR_Scene" && SwippStore.SelectTab != "")
+        {
+            StartCoroutine(WaitAndExecute());
+        }
+    }
+
+
+    // 协程方法
+    private IEnumerator WaitAndExecute()
+    {
+        yield return new WaitForSeconds(0.2f);
+        HandleClick(SwippStore.SelectTab);
+    }
     public void HandleClick(string textContent)
     {
         textMeshProUGUIs.ForEach(textMeshPro =>
@@ -26,7 +43,7 @@ public class TabBarCtrl : MonoBehaviour
             }
             else
             {
-
+                SwippStore.SelectTab = textContent;
                 int index = textMeshProUGUIs.IndexOf(textMeshPro);
                 //textMeshPro.color = new(51/255f, 51/255f, 51/255f, 1f);
                 textMeshPro.fontStyle = FontStyles.Bold;
@@ -51,5 +68,11 @@ public class TabBarCtrl : MonoBehaviour
             }
         });
         
+    }
+
+    private void OnDestroy()
+    {
+        if (TTorStore.NextSceneName != "TTOR_Scene")
+            SwippStore.SelectTab = "";
     }
 }

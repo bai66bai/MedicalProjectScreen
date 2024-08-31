@@ -15,7 +15,6 @@ namespace Assets.Scripts.SampleScene
 
         public override void HandleMsg(string msg)
         {
-            Debug.Log(msg);
             msg = msg.Split(":")[1];
             GameObject targetBtn = msg.Trim() switch
             {
@@ -23,10 +22,11 @@ namespace Assets.Scripts.SampleScene
                 "SkeletonBtn" => Btn2,
                 "LiverBtn" => Btn3,
                 "EyeballBtn" => Btn4,
-                _ => throw new System.NotImplementedException()
+                _ => throw new System.NotImplementedException(msg)
             };
             
             BtnControl.OnClick(targetBtn);
+            HumanBodyStore.HunmanBtnName = targetBtn.name;
         }
     }
 }

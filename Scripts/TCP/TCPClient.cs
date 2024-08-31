@@ -1,106 +1,68 @@
-using System;
-using System.Collections;
 using System.Net.Sockets;
 using System.Text;
+using System;
 using UnityEngine;
+using System.Collections;
 
 public class TCPClient : MonoBehaviour
 {
-    [SerializeField]
-    private string targetIp;
-    [SerializeField]
-    private int targetPort;
+    // 配置服务器IP和端口
+    private static string serverIp = "192.168.3.219";
+    public int serverPort = 8686;
 
-    private TcpClient client;
-    private NetworkStream stream;
-
-
-    public void SendMsg(string msg)=> StartCoroutine(SendMessage(msg));
-
-    new IEnumerator SendMessage(string msg)
+    // 封装发送请求的方法
+    public new void SendMessage(string message)
     {
-        client = new TcpClient();
-        var connect = client.BeginConnect(targetIp, targetPort, null, null);
-
-        // 等待连接完成
-        while (!connect.IsCompleted)
-            yield return null;
-
-        try
-        {
-            client.EndConnect(connect);
-            Debug.Log("Connected to server.");
-            stream = client.GetStream();
-
-            // 发送初始消息
-            StartCoroutine(SendMessageWithoutConnect(msg));
-        }
-        catch (Exception e)
-        {
-            Debug.Log("Failed to connect: " + e.Message);
-        }
+        StartCoroutine(SendRequestCoroutine(message));
     }
 
-    
-    // 封装发送消息的功能为协程
-    IEnumerator SendMessageWithoutConnect(string message)
+    private IEnumerator SendRequestCoroutine(string message)
     {
-        if (stream != null)
-        {
-            byte[] dataToSend = Encoding.UTF8.GetBytes(message);
 
-            // 异步发送消息
-            var asyncSend = stream.BeginWrite(dataToSend, 0, dataToSend.Length, null, null);
-            while (!asyncSend.IsCompleted)
+        // 创建TCP客户端并连接到服务器
+        TcpClient client = new();
+        var connectTask = client.ConnectAsync(serverIp, serverPort);
+
+            // 等待连接完成
+            while (!connectTask.IsCompleted)
+            {
                 yield return null;
-            try
-            {
-                stream.EndWrite(asyncSend);
-
-                Debug.Log("Sent: " + message);
-
-                // 开始接收响应
-                StartCoroutine(ReceiveMessage());
             }
-            catch (Exception e)
+
+        
+            if (connectTask.IsFaulted)
             {
-                Debug.Log("Failed to send message: " + e.Message);
+                throw connectTask.Exception;
             }
-        }
-        else
-        {
-            Debug.Log("Stream is not available.");
-        }
-    }
 
+            NetworkStream stream = client.GetStream();
 
-    // 接收消息的协程
-    IEnumerator ReceiveMessage()
-    {
-        byte[] receivedBytes = new byte[1024];
+            // 将消息转换为字节数组
+            byte[] data = Encoding.UTF8.GetBytes(message);
 
-        var asyncReceive = stream.BeginRead(receivedBytes, 0, receivedBytes.Length, null, null);
-        while (!asyncReceive.IsCompleted)
-            yield return null;
+            // 发送消息
+            var writeTask = stream.WriteAsync(data, 0, data.Length);
+
+            // 等待发送完成
+            while (!writeTask.IsCompleted)
+            {
+                yield return null;
+            }
         try
         {
-            int numberOfBytesRead = stream.EndRead(asyncReceive);
-            if (numberOfBytesRead > 0)
+            if (writeTask.IsFaulted)
             {
-                string receivedMessage = Encoding.UTF8.GetString(receivedBytes, 0, numberOfBytesRead);
-                Debug.Log("Received: " + receivedMessage);
+                throw writeTask.Exception;
             }
         }
         catch (Exception e)
         {
-            Debug.Log("Failed to receive message: " + e.Message);
+            Debug.LogError("Exception: " + e.Message);
         }
-    }
-
-    void OnApplicationQuit()
-    {
-        stream?.Close();
-        client?.Close();
-        Debug.Log("Connection closed.");
+        finally
+        {
+            // 关闭连接
+            client?.Close();
+        }
     }
 }

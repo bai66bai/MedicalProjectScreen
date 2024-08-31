@@ -8,17 +8,28 @@ public class BtnControlPro : MonoBehaviour
     //¿ØÖÆ°´Å¥
     public List<GameObject> ShowContents;
 
-    public TCPClient client;
+
+    private void Start()
+    {
+        if (TTorStore.LastSceneName == "TTOR_Scene" && HumanBodyStore.HunmanBtnName != "")
+        {
+            buttons.ForEach(t =>
+            {
+                if(t.name == HumanBodyStore.HunmanBtnName)
+                {
+                    OnClick(t);
+                }
+            });
+        }
+    }
 
     public void OnClick(GameObject go)
     {
-        client.SendMsg(go.name);
             buttons.ForEach(p =>
             {
 
                 if (p.name == go.name)
                 {
-
                     int tIndex = buttons.IndexOf(p);
                     ShowContents[tIndex].SetActive(true);
                     Image[] images = p.GetComponentsInChildren<Image>();
@@ -33,8 +44,12 @@ public class BtnControlPro : MonoBehaviour
                     images[0].enabled = false;
                     images[1].enabled = true;
                 }
-            }); 
-        
+            });        
     }
 
+    private void OnDestroy()
+    {
+        if (TTorStore.NextSceneName != "TTOR_Scene")
+            HumanBodyStore.HunmanBtnName = "";
+    }
 }
